@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kapuc/CLionProjects/histogram/historgram.c
+stdio.h
+-
+stdarg.h
+-
+stdlib.h
+-
+
+C:/Users/kapuc/CLionProjects/histogram/main.c
+stdio.h
+-
+
