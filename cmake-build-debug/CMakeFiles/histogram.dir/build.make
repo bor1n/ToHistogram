@@ -88,34 +88,64 @@ CMakeFiles/histogram.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/histogram.dir/main.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\CLionProjects\histogram\main.c -o CMakeFiles\histogram.dir\main.c.s
 
-CMakeFiles/histogram.dir/historgram.c.obj: CMakeFiles/histogram.dir/flags.make
-CMakeFiles/histogram.dir/historgram.c.obj: ../historgram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\CLionProjects\histogram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/histogram.dir/historgram.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\histogram.dir\historgram.c.obj -c C:\Users\kapuc\CLionProjects\histogram\historgram.c
+CMakeFiles/histogram.dir/horizontal_historgram.c.obj: CMakeFiles/histogram.dir/flags.make
+CMakeFiles/histogram.dir/horizontal_historgram.c.obj: ../horizontal_historgram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\CLionProjects\histogram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/histogram.dir/horizontal_historgram.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\histogram.dir\horizontal_historgram.c.obj -c C:\Users\kapuc\CLionProjects\histogram\horizontal_historgram.c
 
-CMakeFiles/histogram.dir/historgram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/histogram.dir/historgram.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\CLionProjects\histogram\historgram.c > CMakeFiles\histogram.dir\historgram.c.i
+CMakeFiles/histogram.dir/horizontal_historgram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/histogram.dir/horizontal_historgram.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\CLionProjects\histogram\horizontal_historgram.c > CMakeFiles\histogram.dir\horizontal_historgram.c.i
 
-CMakeFiles/histogram.dir/historgram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/histogram.dir/historgram.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\CLionProjects\histogram\historgram.c -o CMakeFiles\histogram.dir\historgram.c.s
+CMakeFiles/histogram.dir/horizontal_historgram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/histogram.dir/horizontal_historgram.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\CLionProjects\histogram\horizontal_historgram.c -o CMakeFiles\histogram.dir\horizontal_historgram.c.s
+
+CMakeFiles/histogram.dir/vertical_histogram.c.obj: CMakeFiles/histogram.dir/flags.make
+CMakeFiles/histogram.dir/vertical_histogram.c.obj: ../vertical_histogram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\CLionProjects\histogram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/histogram.dir/vertical_histogram.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\histogram.dir\vertical_histogram.c.obj -c C:\Users\kapuc\CLionProjects\histogram\vertical_histogram.c
+
+CMakeFiles/histogram.dir/vertical_histogram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/histogram.dir/vertical_histogram.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\CLionProjects\histogram\vertical_histogram.c > CMakeFiles\histogram.dir\vertical_histogram.c.i
+
+CMakeFiles/histogram.dir/vertical_histogram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/histogram.dir/vertical_histogram.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\CLionProjects\histogram\vertical_histogram.c -o CMakeFiles\histogram.dir\vertical_histogram.c.s
+
+CMakeFiles/histogram.dir/map.c.obj: CMakeFiles/histogram.dir/flags.make
+CMakeFiles/histogram.dir/map.c.obj: ../map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kapuc\CLionProjects\histogram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/histogram.dir/map.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\histogram.dir\map.c.obj -c C:\Users\kapuc\CLionProjects\histogram\map.c
+
+CMakeFiles/histogram.dir/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/histogram.dir/map.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\kapuc\CLionProjects\histogram\map.c > CMakeFiles\histogram.dir\map.c.i
+
+CMakeFiles/histogram.dir/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/histogram.dir/map.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\kapuc\CLionProjects\histogram\map.c -o CMakeFiles\histogram.dir\map.c.s
 
 # Object files for target histogram
 histogram_OBJECTS = \
 "CMakeFiles/histogram.dir/main.c.obj" \
-"CMakeFiles/histogram.dir/historgram.c.obj"
+"CMakeFiles/histogram.dir/horizontal_historgram.c.obj" \
+"CMakeFiles/histogram.dir/vertical_histogram.c.obj" \
+"CMakeFiles/histogram.dir/map.c.obj"
 
 # External object files for target histogram
 histogram_EXTERNAL_OBJECTS =
 
 histogram.exe: CMakeFiles/histogram.dir/main.c.obj
-histogram.exe: CMakeFiles/histogram.dir/historgram.c.obj
+histogram.exe: CMakeFiles/histogram.dir/horizontal_historgram.c.obj
+histogram.exe: CMakeFiles/histogram.dir/vertical_histogram.c.obj
+histogram.exe: CMakeFiles/histogram.dir/map.c.obj
 histogram.exe: CMakeFiles/histogram.dir/build.make
 histogram.exe: CMakeFiles/histogram.dir/linklibs.rsp
 histogram.exe: CMakeFiles/histogram.dir/objects1.rsp
 histogram.exe: CMakeFiles/histogram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kapuc\CLionProjects\histogram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable histogram.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kapuc\CLionProjects\histogram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable histogram.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\histogram.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

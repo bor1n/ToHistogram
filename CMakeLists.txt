@@ -3,4 +3,4 @@ project(histogram C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(histogram main.c historgram.c)
+add_executable(histogram main.c horizontal_historgram.c histogram.h vertical_histogram.c map.c map.h)

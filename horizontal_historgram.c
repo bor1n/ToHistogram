@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdarg.h>
 #include <stdlib.h>
+#include "histogram.h"
 
 int maxi(int a, int b)
 {
@@ -19,7 +19,7 @@ static int max_array(const int *array, int length)
 	return (result);
 }
 
-void histrogram(FILE *file, int verbose)
+void horizontal_histogram(FILE *file, t_param *parameters)
 {
 	int *alphabet;
 	int *numbers;
@@ -59,45 +59,54 @@ void histrogram(FILE *file, int verbose)
 
 	for (int i = 0; i < 26; i++)
 	{
-		if (verbose || alphabet[i])
+		if (parameters->all || alphabet[i])
 		{
 			printf("%c:\t", (char) i + 65);
-			for (int j = 0; j < alphabet[i]; j++)
+			for (int j = 0; j < ((float)alphabet[i] / max) * 100; j++)
 				printf("|");
+			if (parameters->verbose && alphabet[i] != 0)
+				printf(" %i", alphabet[i]);
 			printf("\n");
 		}
 	}
 	for (int i = 0; i < 10; i++)
 	{
-		if (verbose || numbers[i])
+		if (parameters->all || numbers[i])
 		{
 			printf("%d:\t", i);
-			for (int j = 0; j < numbers[i]; j++)
+			for (int j = 0; j < (float)(numbers[i] / max) * 100; j++)
 				printf("|");
+			if (parameters->verbose && numbers[i] != 0)
+				printf(" %i", numbers[i]);
 			printf("\n");
 		}
 	}
-	if (verbose || whitespaces)
+	if (parameters->all || whitespaces)
 	{
 		printf("\\W:\t");
-		for (int j = 0; j < whitespaces; j++)
+		for (int j = 0; j < ((float)whitespaces / max) * 100; j++)
 			printf("|");
+		if (parameters->verbose && whitespaces != 0)
+			printf(" %i", whitespaces);
 		printf("\n");
 	}
-	if (verbose || newlines)
+	if (parameters->all || newlines)
 	{
 		printf("\\n:\t");
-		for (int j = 0; j < newlines; j++)
+		for (int j = 0; j < ((float)newlines / max) * 100; j++)
 			printf("|");
+		if (parameters->verbose && newlines != 0)
+			printf(" %i", newlines);
 		printf("\n");
 	}
-	if (verbose || other)
+	if (parameters->all || other)
 	{
 		printf("\\o:\t");
-		for (int j = 0; j < other; j++)
+		for (int j = 0; j < ((float)other / max) * 100; j++)
 			printf("|");
+		if (parameters->verbose && other != 0)
+			printf(" %i", other);
 		printf("\n");
 	}
-
 
 }

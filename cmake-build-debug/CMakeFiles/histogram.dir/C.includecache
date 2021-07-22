@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/kapuc/CLionProjects/histogram/historgram.c
-stdio.h
--
-stdarg.h
--
-stdlib.h
--
+C:/Users/kapuc/CLionProjects/histogram/histogram.h
 
 C:/Users/kapuc/CLionProjects/histogram/main.c
 stdio.h
 -
+string.h
+-
+histogram.h
+C:/Users/kapuc/CLionProjects/histogram/histogram.h
 

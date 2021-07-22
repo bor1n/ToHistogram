@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/kapuc/CLionProjects/histogram/historgram.c" "C:/Users/kapuc/CLionProjects/histogram/cmake-build-debug/CMakeFiles/histogram.dir/historgram.c.obj"
+  "C:/Users/kapuc/CLionProjects/histogram/horizontal_historgram.c" "C:/Users/kapuc/CLionProjects/histogram/cmake-build-debug/CMakeFiles/histogram.dir/horizontal_historgram.c.obj"
   "C:/Users/kapuc/CLionProjects/histogram/main.c" "C:/Users/kapuc/CLionProjects/histogram/cmake-build-debug/CMakeFiles/histogram.dir/main.c.obj"
+  "C:/Users/kapuc/CLionProjects/histogram/map.c" "C:/Users/kapuc/CLionProjects/histogram/cmake-build-debug/CMakeFiles/histogram.dir/map.c.obj"
+  "C:/Users/kapuc/CLionProjects/histogram/vertical_histogram.c" "C:/Users/kapuc/CLionProjects/histogram/cmake-build-debug/CMakeFiles/histogram.dir/vertical_histogram.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

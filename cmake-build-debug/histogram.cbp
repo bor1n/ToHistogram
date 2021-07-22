@@ -76,10 +76,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/historgram.c">
+		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/histogram.h">
+			<Option target="histogram"/>
+		</Unit>
+		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/horizontal_historgram.c">
 			<Option target="histogram"/>
 		</Unit>
 		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/main.c">
+			<Option target="histogram"/>
+		</Unit>
+		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/map.c">
+			<Option target="histogram"/>
+		</Unit>
+		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/map.h">
+			<Option target="histogram"/>
+		</Unit>
+		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/vertical_histogram.c">
 			<Option target="histogram"/>
 		</Unit>
 		<Unit filename="C:/Users/kapuc/CLionProjects/histogram/CMakeLists.txt">

@@ -141,32 +141,32 @@ histogram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/build
 .PHONY : histogram/fast
 
-historgram.obj: historgram.c.obj
+horizontal_historgram.obj: horizontal_historgram.c.obj
 
-.PHONY : historgram.obj
+.PHONY : horizontal_historgram.obj
 
 # target to build an object file
-historgram.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/historgram.c.obj
-.PHONY : historgram.c.obj
+horizontal_historgram.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/horizontal_historgram.c.obj
+.PHONY : horizontal_historgram.c.obj
 
-historgram.i: historgram.c.i
+horizontal_historgram.i: horizontal_historgram.c.i
 
-.PHONY : historgram.i
+.PHONY : horizontal_historgram.i
 
 # target to preprocess a source file
-historgram.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/historgram.c.i
-.PHONY : historgram.c.i
+horizontal_historgram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/horizontal_historgram.c.i
+.PHONY : horizontal_historgram.c.i
 
-historgram.s: historgram.c.s
+horizontal_historgram.s: horizontal_historgram.c.s
 
-.PHONY : historgram.s
+.PHONY : horizontal_historgram.s
 
 # target to generate assembly for a file
-historgram.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/historgram.c.s
-.PHONY : historgram.c.s
+horizontal_historgram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/horizontal_historgram.c.s
+.PHONY : horizontal_historgram.c.s
 
 main.obj: main.c.obj
 
@@ -195,6 +195,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/main.c.s
 .PHONY : main.c.s
 
+map.obj: map.c.obj
+
+.PHONY : map.obj
+
+# target to build an object file
+map.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/map.c.obj
+.PHONY : map.c.obj
+
+map.i: map.c.i
+
+.PHONY : map.i
+
+# target to preprocess a source file
+map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/map.c.i
+.PHONY : map.c.i
+
+map.s: map.c.s
+
+.PHONY : map.s
+
+# target to generate assembly for a file
+map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/map.c.s
+.PHONY : map.c.s
+
+vertical_histogram.obj: vertical_histogram.c.obj
+
+.PHONY : vertical_histogram.obj
+
+# target to build an object file
+vertical_histogram.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/vertical_histogram.c.obj
+.PHONY : vertical_histogram.c.obj
+
+vertical_histogram.i: vertical_histogram.c.i
+
+.PHONY : vertical_histogram.i
+
+# target to preprocess a source file
+vertical_histogram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/vertical_histogram.c.i
+.PHONY : vertical_histogram.c.i
+
+vertical_histogram.s: vertical_histogram.c.s
+
+.PHONY : vertical_histogram.s
+
+# target to generate assembly for a file
+vertical_histogram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\histogram.dir\build.make CMakeFiles/histogram.dir/vertical_histogram.c.s
+.PHONY : vertical_histogram.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -204,12 +258,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... histogram
-	@echo ... historgram.obj
-	@echo ... historgram.i
-	@echo ... historgram.s
+	@echo ... horizontal_historgram.obj
+	@echo ... horizontal_historgram.i
+	@echo ... horizontal_historgram.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... map.obj
+	@echo ... map.i
+	@echo ... map.s
+	@echo ... vertical_histogram.obj
+	@echo ... vertical_histogram.i
+	@echo ... vertical_histogram.s
 .PHONY : help
 
 
